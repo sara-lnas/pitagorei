@@ -13,4 +13,4 @@ Foi utilizado HTML, CSS e JS para elaborá-lo.
 
 
 
-Acesse o link: https://sara-lnas.github.io/Arrakis_news/
+Acesse o link:https://pitagorei.vercel.app/
