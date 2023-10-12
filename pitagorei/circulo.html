@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/geometria" href="img/logoPag.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Círculo</title>
+</head>
+<body class="degrade">
+    
+    <header>
+        <h1 class="texto-principal"><span>PITÁGOREI</span></h1> 
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="link1" class="home">Início</a></li>
+                <li><a href="contato.html" class="link1" class="home">Contato</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main class="figuras">
+        <article class="flex-item" class="image"> 
+        <h3 class="Nfigura1"><center>CÍRCULO</center></h3>
+    
+        <a><center><img src="mage/circulo1.png"  width= "200px" height="200px" alt="CÍRCULO" class="imagemhome"></center></a>
+    
+    <section class="poema">    
+    <h2 class="Tp">O Círculo Perfeito</h2>
+    <div class="space">
+        <p class="pT">No mundo geométrico, eu sou uma joia rara,</p>
+
+        <p class="pT">Um círculo perfeito, sem igual se compara.</p>
+        
+        <p class="pT">Com um centro no coração, sou equidistante,</p>
+        
+        <p class="pT">Para minha circunferência, sempre constante.</p>
+    </div>
+
+    <div class="space">
+        <p class="pT">Minha borda suave, sem ângulos ou esquinas,</p>
+    
+        <p class="pT">Forma um anel redondo, sem pontas nem linhas finas.</p>
+    
+        <p class="pT">O raio que se estende, a partir do centro, bem medido,</p>
+        
+        <p class="pT">É a mesma distância, em todo ponto, garantido.</p>
+    </div>
+
+    <div class="space">
+        <p class="pT">Minha área e circunferência, fórmulas revelam com arte,</p>
+    
+        <p class="pT">Pi (π) é minha constante, um número tão importante.</p>
+        
+        <p class="pT">Assim, no vasto universo da matemática e da arte,</p>
+    
+        <p class="pT">O círculo perfeito, com simetria que encanta e atrai.</p>
+    </div>
+</section>
+
+<article class="formato">
+    <div class="formulaFig">
+    <p class="formula">A = π . r²</p>
+
+    <div class="textC">
+    <form id="calc_circulo">
+        <label for="raio_elevado">Raio (r)</label>
+        <input type="number" id="raio_elevado" required placeholder="Raio">
+        <!-- <input type="number" id="raio_elevado" required placeholder="Altura">-->
+
+        <label class="resultado" for="resultado">Área:</label>
+        <center><span id="resultado"></span></center>
+
+        <center><button type="button" id="calcular-btn" onclick="calcular_circulo()">Calcular</button></center>
+    </form>
+</div>
+    </main>
+
+    <script>function calcular_circulo(){
+        var raio_elevado = parseFloat(document.getElementById("raio_elevado").value);
+        var area = Math.PI * (Math.pow(raio_elevado, 2));
+
+        document.getElementById('resultado').textContent = area.toFixed(2);
+    }
+
+    </script>
+    </main>
+</article>
+    </div>
+    
+
+    <section class="section">
+        <div class="logo-footer">
+            <h1 class="Logo"><span>PITÁGOREI</span></h1>
+        </div>
+
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">NAVEGAÇÃO</h3>
+                <li class="item-section"><a href="index.html" class="link">Início</a></li>
+                <li class="item-section"><a href="contato.html" class="link">Contato</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">AJUDA</h3>
+                    <li class="item-section"><a href="" class="link">Política de Privacidade</a></li>
+                    <li class="item-section"><a href="" class="link">Termos de Uso e Condições</a></li>
+            </ul>
+        </div>
+
+         
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">CONTATO</h3>   
+                <li class="item-section"><a href="" class="link">contato@pitagorei.com</a></li>
+                <li class="item-section"><a href="" class="link">Celular: (11) 98764-1999</li></a>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="p-footer"> &copy; Pitágorei 2023 - Todos os direitos reservados.</p>
+        <p class="p-footer">Criado por Sara Letícia  <img src="img/moon.png" width="15px" height="14px" alt="meia lua"></p>  
+    </footer>
+    
+</body>
+</html>

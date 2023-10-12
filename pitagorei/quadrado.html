@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/geometria" href="img/logoPag.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Quadrado</title>
+</head>
+<body class="degrade">
+    
+    <header>
+        <h1 class="texto-principal"><span>PITÁGOREI</span></h1> 
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="link1" class="home">Início</a></li>
+                <li><a href="contato.html" class="link1" class="home">Contato</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main class="figuras">
+        <article class="flex-item" class="image"> 
+        <h3 class="Nfigura1"><center>QUADRADO</center></h3>
+
+    <section class="poema">
+        <a class="imagi"><img src="mage/quadrado1.png"  width= "210px" height="210px" alt="CÍRCULO" class="imagemhome"></a>
+
+        <h2 class="Tp">O Quadrado Alegre</h2>
+        <div class="space">
+            <p class="pT">No mundo da forma, eu sou quadrado, é verdade,</p>
+    
+            <p class="pT">Quatro lados iguais, com ângulos em paridade.</p>
+            
+            <p class="pT">Lado a lado, minha medida é a mesma, sem engano,</p>
+            
+            <p class="pT">Um retângulo especial, onde tudo é retinho e plano.</p>
+        </div>
+    
+        <div class="space">
+            <p class="pT">Com quatro cantos, onde encontro meu encontro,</p>
+        
+            <p class="pT">Em cada ângulo, noventa graus de conforto.</p>
+        
+            <p class="pT">Minhas linhas, todas retas, sem curva ou dobradura,</p>
+            
+            <p class="pT">Simplicidade geométrica, sou a figura da segurança pura.</p>
+        </div>
+    
+        <div class="space">
+            <p class="pT">Na matemática, sou fácil de calcular,</p>
+        
+            <p class="pT">Área é base vezes altura, é só multiplicar.</p>
+            
+            <p class="pT">Se quiser saber o perímetro, é somar os lados, é claro,</p>
+        
+            <p class="pT">O quadrado é a forma que com simplicidade brilho raro.</p>
+    </div>
+</section>
+
+
+    <div class="formulaFig">
+    <p class="formula">A = L²</p>
+
+    <div class="textC">
+    <form id="quadrado">
+        <label for="ladoQuadrado">Lado</label>
+        <input type="number" id="ladoQuadrado" required>
+
+        <label class="resultado" for="resultado">Área:</label>
+        <center><span id="resultado"></span></center>
+
+        <center><button type="button" id="calcular-btn" onclick="calcular_quadrado()">Calcular</button></center>
+    </form>
+</div>
+    </main>
+
+    <script>function calcular_quadrado(){
+        var ladoQuadrado = parseFloat(document.getElementById("ladoQuadrado").value);
+        var areaQuadrado = ladoQuadrado * ladoQuadrado;
+
+        document.getElementById('resultado').textContent = areaQuadrado.toFixed(2);
+    }
+
+    </script>
+    </main>
+    </article>
+    </div>
+   
+
+    <section class="section">
+        <div class="logo-footer">
+            <h1 class="Logo"><span>PITÁGOREI</span></h1>
+        </div>
+
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">NAVEGAÇÃO</h3>
+                <li class="item-section"><a href="index.html" class="link">Início</a></li>
+                <li class="item-section"><a href="contato.html" class="link">Contato</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">AJUDA</h3>
+                    <li class="item-section"><a href="" class="link">Política de Privacidade</a></li>
+                    <li class="item-section"><a href="" class="link">Termos de Uso e Condições</a></li>
+            </ul>
+        </div>
+
+         
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">CONTATO</h3>   
+                <li class="item-section"><a href="" class="link">contato@pitagorei.com</a></li>
+                <li class="item-section"><a href="" class="link">Celular: (11) 98764-1999</li></a>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="p-footer"> &copy; Pitágorei 2023 - Todos os direitos reservados.</p>
+            
+        <p class="p-footer">Criado por Sara Letícia <img src="img/moon.png" width="15px" height="14px" alt="meia lua"></p>  
+    </footer>
+
+
+</body>
+</html>

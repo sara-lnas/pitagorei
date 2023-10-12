@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/geometria" href="img/logoPag.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Retângulo</title>
+</head>
+<body class="degrade">
+    
+    <header>
+        <h1 class="texto-principal"><span>PITÁGOREI</span></h1> 
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="link1" class="home">Início</a></li>
+                <li><a href="contato.html" class="link1" class="home">Contato</a></li>
+
+            </ul>
+        </nav>
+    </header>
+ 
+    <main class="figuras">
+        <article class="flex-item" class="image"> 
+        <h3 class="Nfigura1"><center>RETÂNGULO</center></h3>
+    
+        <a><center><img src="mage/retangulo1.png"  width= "350px" height="200px" alt="CÍRCULO" class="imagemhome"></center></a>
+        
+        <section class="poema">
+            <h2 class="Tp">O Retângulo em Poesia</h2>
+            <div class="space">
+                <p class="pT">No vasto mundo geométrico, um retângulo aparece,</p>
+        
+                <p class="pT">Com quatro lados, dois longos e dois breves, ele aquece.</p>
+                
+                <p class="pT">Ângulos retos, esquinas alinhadas com cuidado,</p>
+                
+                <p class="pT">Na matemática, um amigo confiável e bem-vindo, declarado.</p>
+            </div>
+        
+            <div class="space">
+                <p class="pT">Base e altura, segredos que revelam com esplendor,</p>
+            
+                <p class="pT">Multiplicadas, a área brota, sem temor.</p>
+            
+                <p class="pT">Perímetro, a soma de lados a encantar,</p>
+                
+                <p class="pT">O retângulo é forma, ordem e beleza a enfeitar.</p>      
+    </div>
+</section>
+
+    <div class="formulaFig">
+    <p class="formula">A = b . h</p>
+
+    <div class="textC">
+    <form id="calc_circulo">
+        <label for="BaseRetangulo">Base</label>
+        <input type="number" id="BaseRetangulo" required placeholder="Base">
+        <!--placeholder="Altura"-->
+
+        <label for="AlturaRetangulo">Altura</label>
+        <input type="number" id="AlturaRetangulo" required placeholder="Altura">
+
+        <label class="resultado" for="resultado">Área:</label>
+        <center><span id="resultado"></span></center>
+
+        <center><button type="button" id="calcular-btn" onclick="calcular_retangulo()">Calcular</button></center>
+    </form>
+</div>
+    </main>
+
+    <script>function calcular_retangulo(){
+        var BaseRetangulo = parseFloat(document.getElementById("BaseRetangulo").value);
+        var AlturaRetangulo = parseFloat(document.getElementById("AlturaRetangulo").value);
+        var area = BaseRetangulo * AlturaRetangulo;
+
+        document.getElementById('resultado').textContent = area.toFixed(2);
+    }
+    </script>
+    </main>
+    </article>
+    </div>
+
+    <section class="section">
+        <div class="logo-footer">
+            <h1 class="Logo"><span>PITÁGOREI</span></h1>
+        </div>
+
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">NAVEGAÇÃO</h3>
+                <li class="item-section"><a href="index.html" class="link">Início</a></li>
+                <li class="item-section"><a href="contato.html" class="link">Contato</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">AJUDA</h3>
+                    <li class="item-section"><a href="" class="link">Política de Privacidade</a></li>
+                    <li class="item-section"><a href="" class="link">Termos de Uso e Condições</a></li>
+            </ul>
+        </div>
+
+         
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">CONTATO</h3>   
+                <li class="item-section"><a href="" class="link">contato@pitagorei.com</a></li>
+                <li class="item-section"><a href="" class="link">Celular: (11) 98764-1999</li></a>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="p-footer"> &copy; Pitágorei 2023 - Todos os direitos reservados.</p>
+            
+        <p class="p-footer">Criado por Sara Letícia <img src="img/moon.png" width="15px" height="14px" alt="meia lua"></p>  
+    </footer>
+
+
+</body>
+</html>

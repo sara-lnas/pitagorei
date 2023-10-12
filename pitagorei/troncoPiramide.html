@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="img/geometria" href="img/logoPag.png">
+    <link rel="stylesheet" href="styles/styles.css">
+    <title>Tronco da Pirâmide</title>
+</head>
+<body class="degrade">
+    
+    <header>
+        <h1 class="texto-principal"><span>PITÁGOREI</span></h1> 
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html" class="link1" class="home">Início</a></li>
+                <li><a href="contato.html" class="link1" class="home">Contato</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <main class="figuras">
+        <article class="flex-item" class="image"> 
+        <h3 class="Nfigura1"><center>TRONCO DA PIRÂMIDE</center></h3>
+
+    <section class="poema">
+        <a><center><img src="mage/tronco piramide.png"  width= "290px" height="250px" alt="CÍRCULO" class="imagemhome"></center></a>
+
+    <h2 class="Tp">O Tronco na Poesia: Uma Lição</h2>
+    <div class="space">
+        <p class="pT">No tronco de pirâmide, a poesia começa,</p>
+
+        <p class="pT">Com base sólida, a ideia inicial aparece,</p>
+        
+        <p class="pT">No meio, se aprofunda, a trama se entrelaça,</p>
+        
+        <p class="pT">A complexidade cresce, o verso aquece.</p>
+    </div>
+
+    <div class="space">
+        <p class="pT">Nos versos finais, o ápice é o destaque,</p>
+
+        <p class="pT">Como o topo da pirâmide, eleva-se no ar,</p>
+    
+        <p class="pT">Uma conclusão impactante, não há disfarce,</p>
+        
+        <p class="pT">No tronco de pirâmide, a poesia a brilhar.</p>
+    </div>
+
+    <div class="space">
+        <p class="pT">Assim, com essa estrutura, a arte é criada,</p>
+        
+        <p class="pT">Da base ao ápice, a emoção é revelada.</p>
+    </div>
+</section>
+    
+    <div class="formulaFig">
+    <p class="formula">A = A1 + A2 + Al</p>
+
+    <div class="textC">
+    <form id="calc_circulo">
+        <label for="raioMaior">Raio maior</label>
+        <input type="number" id="raioMaior" required>
+
+        <label for="raioMenor">Raio menor</label>
+        <input type="number" id="raioMenor" required>
+
+        <label for="altura">Altura</label>
+        <input type="number" id="altura" required>
+
+        <label class="resultado" for="resultado">Área:</label>
+        <center><span id="resultado"></span></center>
+
+        <center><button type="button" id="calcular-btn" onclick="calcularArea()">Calcular</button></center>
+    </form>
+</div>
+    </main>
+
+    <script>function calcularArea(){
+       var raioMaior = parseFloat(document.getElementById('raioMaior').value);
+       var raioMenor = parseFloat(document.getElementById('raioMenor').value);
+       var altura = parseFloat(document.getElementById('altura').value);
+
+       var area = Math.PI * (raioMaior + raioMenor) * (raioMaior - raioMenor + Math.sqrt(Math.pow(altura, 2) + Math.pow(raioMaior - raioMenor, 2)));
+
+        document.getElementById('resultado').textContent = area.toFixed(2);
+    }
+
+    </script>
+    </main>
+    </article>
+    </div>
+    
+
+    <section class="section">
+        <div class="logo-footer">
+            <h1 class="Logo"><span>PITÁGOREI</span></h1>
+        </div>
+
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">NAVEGAÇÃO</h3>
+                <li class="item-section"><a href="index.html" class="link">Início</a></li>
+                <li class="item-section"><a href="contato.html" class="link">Contato</a></li>
+            </ul>
+        </div>
+
+        
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">AJUDA</h3>
+                    <li class="item-section"><a href="" class="link">Política de Privacidade</a></li>
+                    <li class="item-section"><a href="" class="link">Termos de Uso e Condições</a></li>
+            </ul>
+        </div>
+
+         
+        <div class="sectio5n-footer1">
+            <h3 class="title-section">CONTATO</h3>   
+                <li class="item-section"><a href="" class="link">contato@pitagorei.com</a></li>
+                <li class="item-section"><a href="" class="link">Celular: (11) 98764-1999</li></a>
+            </ul>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p class="p-footer"> &copy; Pitágorei 2023 - Todos os direitos reservados.</p>
+        <p class="p-footer">Criado por Sara Letícia  <img src="img/moon.png" width="15px" height="14px" alt="meia lua"></p>  
+    </footer>
+    
+</body>
+</html>

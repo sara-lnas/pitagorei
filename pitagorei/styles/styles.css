@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Poiret+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister&display=swap');
+
+* {
+    margin: 0;
+    padding: 0 border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+.texto-principal {
+    font-family:'Major Mono Display', monospace;
+    color:#021D51;
+    font-size: 73px;
+    background-color:#D6EEF5;
+    text-align: center;
+    padding: 30px;
+}
+
+/*paragrafo central da página*/
+.Pcentral{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    color: #011b4b;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 0px;
+}
+
+.Pcentral:hover{
+    color: #1d84a7;
+}
+
+body{
+    background-color: #F1F0EB;
+}
+
+.degrade{
+    background: linear-gradient(90deg, #c9edf8 10%, #86D9F4 40%, #6DCEEE 70%, #79d7f7 50%);
+}
+
+.menu {
+    background-color:#86D9F4;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 22px;
+    gap: 300px;
+    justify-content: center;
+    padding: 0,1cm;
+}
+
+.link1{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:#011b4b;
+    font-size: 25px;
+    display: flex;
+}
+.link1:hover{
+    color: #ffffff;
+}
+
+/* configuraçoes das figuras inicial */
+
+.center{
+    display: inline-block;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    padding: 15px 20px 40px 40px;
+}
+
+.imagemhome{
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.imagemm{
+    border: 1px solid #2cc0f1;
+    border-radius: 15px;
+    width: 220px;
+    height: 300px;
+    display: flex;
+    padding: 25px;
+}
+
+.Nfigura{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #015D8C;
+    font-size: 25px;
+    text-align: center;
+}
+
+.Nfigura1{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #015D8C;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.link-article{
+    font-family:'Montserrat Alternates', sans-serif;
+    background-color: #86d9f471;
+    color: #040042;
+    font-size: 10px;
+    padding: 12px 21px;
+    border: 1px solid #5fbbdaa2;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px; 
+}
+
+.link-article1{
+    font-family:'Montserrat Alternates', sans-serif;
+    background-color: #86d9f471;
+    color: #040042;
+    font-size: 10px;
+    padding: 12px 21px;
+    border: 1px solid #5fbbdaa2;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 45px; 
+}
+
+.link-article:hover {
+    background-color: #015D8C;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.link-article1:hover {
+    background-color: #015D8C;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.photo{
+    text-align: center;
+    padding: 5px 20px 10px 15px;
+}
+
+/* section Pythagoras */
+
+.pythagoras{
+    background-color: #74d7f831;
+    border-top: 3px solid #5bd2face;
+    /*#2fcbffd5; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 85vh;
+    padding: 25px;
+    padding-left: 120px;
+}
+
+.pythagorasT{
+    font-family: 'Love Ya Like A Sister', cursive;
+    color: #01527a;
+    font-size: 30px;
+    text-align: justify;
+    padding: 20px;
+}
+   
+.pythagorasText{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #05013b;
+    font-size: 20px;
+    text-align: justify;
+    line-height: 2rem;
+    margin-top: 10px;
+    margin-right: 40px;   
+}
+   
+.Te{
+    padding: 20px;
+}
+
+/* configurações das páginas das figuras */
+
+.figuras {
+    background-color: #F1F0EB;
+    width: 550px;
+    padding: 40px;
+    text-align: center;
+    margin: 0 auto;    
+    border: 2px solid #2cc0f1;
+}
+
+.Tp{
+    font-family: 'Montserrat Alternates', sans-serif;
+    color:#015D8C;
+    font-size: 20px; 
+    text-align: justify;
+    padding: 6px;
+    padding-left: 10px;
+}
+
+.pT {
+    font-family: Helvetica, sans-serif;
+    color: black;
+    font-size: 17px; 
+    text-align: justify;
+    padding: 3px;
+    padding-left: 10px;
+}
+
+.space{
+   padding-top: 8px;
+   padding-bottom: 6px;
+   text-align: justify;
+}
+
+
+
+/* Contas das figuras */
+
+.formulaFig { 
+    background-color:#34c3f31f;
+    /*background-image: url(https://img.freepik.com/vetores-gratis/fundo-marrom-abstrato_1053-418.jpg?w=740&t=st=1696808190~exp=1696808790~hmac=ff9b4b17e86496ac752194b729bd6d43948db8d4a253a02a362b0e692a359feb);*/
+    width: 300px;
+    padding: 25px;
+   
+    border-radius: 13px 0px;
+    border: 2px solid #18baf0;
+}
+
+.formato{
+    display: flex;
+}
+
+.formula{
+    font-family: Helvetica, sans-serif;
+    color: #002335;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.textC{
+    font-family: Helvetica, sans-serif;
+    color:#015D8C;
+    font-size: 10px;
+    text-align: justify;
+    padding: 10px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ 
+label{
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+    font-weight: bold;
+}
+
+input{
+    background-color: #34c3f31f;
+    width: 83%;
+    padding: 10px;
+    border: 2px solid #18baf0;
+    border-radius: 5px;
+}
+    
+/* Botão para calcular*/
+button{
+    font-family: 'Montserrat Alternates', sans-serif;
+    background-color: #86d9f4a2;
+    font-size: 20px;
+    color: #002638f3;
+    justify-content: center;
+    padding: 20px 30px;
+    border: 1px solid #00bdfcfd;
+    border-radius: 13px;
+    display: flex;
+    cursor: pointer;
+    transition: .3s ease;
+/*  height: 40px;
+    padding: 10px;
+    background-color:#86d9f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;*/
+}
+
+button:hover {
+    background-color: #015D8C;
+    color: #ffffff;
+    border: 1px solid #002c42;
+    
+}
+
+#resultado{
+    color: #002335;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 50px;
+    text-align: justify;
+    padding: 10px 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+/* barra de informações final da página*/
+
+.section{
+    background-color: #86d9f4;
+    font-size: 18px;
+    display: flex;
+    padding-bottom: 75px;
+    justify-content: space-evenly;
+}
+
+.Logo{
+    font-family:'Major Mono Display', monospace;
+    color:#021D51;
+    font-size: 35px; 
+    padding: 55px 45px 40px 30px;
+    list-style: none;
+}
+
+.title-section {
+    font-family:'Arial', sans-serif;
+    color: #b10e96;
+    font-size: 18px;
+    display: inline-block;
+    padding-bottom: 5px;
+    padding-top: 50px;   
+}
+
+.link{
+    font-family: 'Montserrat Alternates';
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    padding: 7px;
+}
+
+.link:hover{
+    color:#b10e96;
+}
+
+.item-section {
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    justify-content: right;
+}
+
+.columns {
+    columns: 2;
+}
+
+
+/* final da página */
+
+.footer {
+    height: 40px;
+    padding: 10px;
+    background-color:#86d9f4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.p-footer {
+    font-family: 'Montserrat Alternates';
+    font-size: 15px;
+    padding: 5px;
+}
+
